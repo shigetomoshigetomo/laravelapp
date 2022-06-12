@@ -9,4 +9,3 @@
       $view -> with('view_message', 'this view is "' . $view -> getName() . '"!!');
     }
   }
-?>
