@@ -17,6 +17,7 @@
       @endforeach
     </ul>
   </div>
+  @endif
   <form action="/hello" method="post">
     <table>
       @csrf
