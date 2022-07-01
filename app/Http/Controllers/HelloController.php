@@ -24,7 +24,7 @@ class HelloController extends Controller
         return view('hello.index', ['msg' => 'フォームを入力して下さい。' ]);
     }
 
-    public function post(Request $request)
+    public function post(HelloRequest $request)
     {
         // $rules = [
         //     'name' => 'required',
